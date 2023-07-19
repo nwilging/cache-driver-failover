@@ -35,7 +35,7 @@ automatically merged into your `config/cache.php` configuration. If you wish to 
 Add the following .env variables:
 ```bash
 APP_CACHE_DRIVER=redis
-APP_REDIS_HOST=
+APP_REDIS_HOST=<redis hostname>
 APP_REDIS_PASSWORD=
 APP_REDIS_PORT=6379
 APP_REDIS_CACHE_DB=0
